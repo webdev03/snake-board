@@ -109,7 +109,6 @@ def next_move():
         visited[xx[0]][xx[1]] = True
 
     queue.append(snake_body[0])
-    visited[snake_body[0][0]][snake_body[0][1]] = True
 
     while queue:
         thing = queue.popleft()
