@@ -182,4 +182,4 @@ while True:
     next_move()
     render_game()
     display.refresh(minimum_frames_per_second=0)
-    time.sleep(0.1)
+    time.sleep(0.05)
