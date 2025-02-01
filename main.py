@@ -126,9 +126,9 @@ def next_move():
         ]
 
         for neighbour in neighbours:
-            if neighbour[0] < 1 or neighbour[0] >= display.width:
+            if neighbour[0] < 1 or neighbour[0] >= (display.width - 1):
                 continue
-            if neighbour[1] < 1 or neighbour[1] >= display.height:
+            if neighbour[1] < 1 or neighbour[1] >= (display.height - 1):
                 continue
 
             if not visited[neighbour[0]][neighbour[1]]:
